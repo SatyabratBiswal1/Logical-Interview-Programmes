@@ -1,0 +1,13 @@
+package com.LogicTask;
+
+import java.util.stream.IntStream;
+
+public class ArrayContainsAvalue {
+
+	public static void main(String[] args) {
+		int arr[]= {1,2,3,4,5,6,7,8,9};
+		System.out.println(IntStream.of(arr).anyMatch(x->x==6));
+
+	}
+
+}
